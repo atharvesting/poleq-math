@@ -1,0 +1,23 @@
+{
+  "name": "poleq-ui",
+  "private": true,
+  "scripts": {
+    "build": "node web/build.mjs",
+    "test": "node web/test.mjs"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^6.21.0",
+    "@blueprintjs/icons": "^6.14.1",
+    "cytoscape": "^3.33.1",
+    "d3-force": "^3.0.0",
+    "dompurify": "^3.2.7",
+    "katex": "^0.16.22",
+    "markdown-it": "^14.1.0",
+    "markdown-it-texmath": "^1.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.10"
+  }
+}

@@ -1,0 +1,15 @@
+[project]
+name = "poleq"
+version = "0.1.0"
+description = "An offline mathematics knowledge base"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.34,<1", "httpx>=0.28,<1"]
+
+[project.scripts]
+poleq = "poleq.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
